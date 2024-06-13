@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #fff;
+        }
+        .container {
+            display: grid;
+            grid-template-columns:auto auto;
+            gap: 10px;
+            padding: 50px;
+            background-color: white;
+        }
+        .container1 {
+            padding-top: 100px;
+            padding-left: 125px;
+            background-color: #538392;
+            color: white;
+            margin-right: 20px;
+        }
+        .container2 {
+            
+            padding-right: 21px;
+            background-color: white;
+        }
+        form {
+            display: grid;
+            gap: 20px;
+        }
+        .form-group {
+            display: flex;
+            gap: 10px;
+        }
+        .form-group label {
+            flex: 1;
+        }
+        input, textarea, button {
+            width: 100%;
+            box-shadow: 2px 2px 2px grey;
+            border: none;
+            padding-top: 10px;
+            
+        }
+        textarea {
+            height: 100px;
+        }
+        .form-group>button{
+            border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    margin-left: 142px;
+    margin-right: 100px;
+        }
+        .form-group>button:hover{
+            background-color: rgb(91, 68, 118);
+            color: white;
+        }
+        form>h3{
+            color: rgb(91, 68, 118);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <section class="one">
+                <h1>RJ</h1>
+                <h3>Technology</h3>
+            </section>
+            <section>
+                <h1>M.VERVE</h1>
+                <p>Inspired Applications</p>
+            </section>
+            <section>
+                <p>To connect with us please enter the details</p>
+            </section>
+        </div>
+        <div class="container2">
+            <form>
+                <h3>Create an account</h3>
+                <div class="form-group">
+                    <label for="firstName">
+                        <sup>First Name</sup><br>
+                        <input type="text" placeholder="First Name" required>
+                    </label>
+                    <label for="lastName">
+                        <sup>Last Name</sup><br>
+                        <input type="text" placeholder="Last Name" required>
+                    </label>
+                    <label for="age">
+                        <sup>Age</sup><br>
+                        <input type="number" placeholder="18-100" required>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="mobileNumber">
+                        <sup>Mobile Number</sup><br>
+                        <input type="number" placeholder="123-456-7890" required>
+                    </label>
+                    <label for="email">
+                        <sup>Email</sup><br>
+                        <input type="email" placeholder="abc@xxx.zzz" required>
+                    </label>
+                </div>
+                <label for="description">
+                    <sup>Description</sup><br>
+                    <textarea  placeholder="Max 150 characters" required></textarea>
+                </label>
+                <div class="form-group">
+                    <label for="password">
+                        <sup>Password</sup><br>
+                        <input type="password"  required>
+                    </label>
+                    <label for="confirmPassword">
+                        <sup>Confirm Password</sup><br>
+                        <input type="password"  required>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

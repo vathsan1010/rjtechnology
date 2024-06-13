@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+.mar{
+    background-color: orange;
+    padding: 10px;
+    
+}
+.icons{
+    background-color: rgb(48, 46, 59);
+    color: white;
+    display: flex;
+    padding: 20px 10px 20px 10px;
+    justify-content: space-around;
+}
+.icons p{
+    margin-right: 100px;
+}
+.pic>a>i{
+    padding-top: 20px;
+}
+
+.icons i{
+    margin-right: 20px;
+    color: white;
+} 
+.information{
+    background-color: lightblue;
+    display: flex;
+    padding: 30px;
+    color: rgb(5, 150, 5);
+}
+.align{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.align a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left:40px ;
+    color: black;
+}
+.align a:hover{
+    background-color: white;
+    color: red;
+    padding: 20px 10px 20px 10px;
+    margin: 20px;
+    
+}
+.information button{
+    margin-left: 100px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #57bb7f;
+    font-size: 15px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    color: black;
+    /* margin-top: 30px; */
+}
+.dropdown-content a{
+    padding: 20px 90px 10px 30px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    margin: 0px;
+    background-color: rgb(74, 71, 71);
+    color: white;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.click{
+    position: relative;
+    margin-left: 30px;
+}
+
+.click-form{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -60px;
+    width: 370px;
+    height: 350px;
+    margin: 15px 18px 10px 15px ;
+    padding: 20px;
+    background-color: white;
+}
+.click:hover .click-form{
+    display: block;
+} 
+.click-form h3{
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.home-icons{
+    color: black;
+    background-color: skyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin: 10px;
+}
+.home-icons i{
+    padding-left: 30px;
+}
+.inputs input,select{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.inputs button{
+    padding: 15px 50px;
+    background-color: skyblue;
+    color: black;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.in:hover{
+    color: red;
+    cursor: pointer;
+}
+.image-container{
+    background-image: url("https://elearningindustry.com/wp-content/uploads/2023/01/shutterstock_1681937335.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    animation: mafia 10s infinite;
+}
+    @keyframes mafia {
+        50%{
+            background-image: url("https://media.licdn.com/dms/image/D5612AQHjZYlrQQZ6zQ/article-cover_image-shrink_600_2000/0/1687329965363?e=2147483647&v=beta&t=pcrXL_1-4PuBhjOf_BoNV3NEMGrgGaog5dbM_I4wcTM");
+        }
+        100%{
+            background-image: url("https://www.acornhouse.school/wp-content/uploads/2018/10/learning-pic-e1540459411497.gif");
+        }
+    }
+.content{
+    color: white;
+    padding-left: 100px;
+    padding-top: 110px;
+    width: 500px;
+}
+.content p{
+    padding-left: 20px;
+}
+.quick button{
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: #57bb7f;
+    border: none;
+    color: white;
+}
+.content-sub1{
+    padding: 20px;
+}
+.quick{
+    position: relative;
+    width: 232px;
+}
+.out1:hover{
+    color: red;
+}
+.quick:hover .quick-content{
+    display: block;
+}
+.quick-content{
+    display: none;
+    background-color: white;
+    position: absolute;
+    left: 220px;
+    width: 370px;
+    height: 343px;
+    text-align: center;
+    padding-top: 34px;
+    top: -285px;
+    border-radius:10px ;
+}
+.quick-content h4{
+    color: black;
+    padding-bottom: 30px;
+}
+.in2{
+    width: 50%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-left:16px;
+    margin-bottom: 5px;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+}
+.quick-content button{
+    margin-top: 10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: blue;
+}
+.dummy-content{
+    text-align: center;
+    margin-top: 50px;
+}
+.dummy-content p{
+    padding-top: 40px;
+    color: grey;
+}
+.separate-box{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+.s1{
+    background-color: #57bb7f;
+    border-radius: 20px;
+    width: 70%;
+    margin: 30px;
+    padding-top: 30px;
+    padding-right: 35px;
+    padding-left: 22px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.s1:hover{
+    background-color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+.s1 p{
+    padding-top: 20px;
+}
+.s1 i{
+    position: absolute;
+    top: -30px;
+    background-color: grey;
+    padding: 20px;
+    left: 110px;
+    border-radius: 50px;
+}
+.dummy-content2{
+    text-align: center;
+    margin-top: 20px;
+}
+.dummy-content2 p{
+    padding-top: 20px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+    row-gap: 10px;
+    column-gap: 35px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.s2{
+    background-color: #40A578;
+    color: white;
+    margin-bottom: 29px;
+    padding-bottom: 10px;
+    /* text-align: center; */
+    padding-top: 10px;
+    /* border-radius: 20px; */
+}
+.FSD{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.s3{
+    background-color: white;
+    width: 100%;
+    height: 278px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+ .s3>i,p,h4{
+    padding-top: 20px;
+ }
+.s3 button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+    background-color: #40A578;
+    border: none;
+    color: white;
+}
+.s3>i{
+    color: gold;
+}
+
+.s3>button>a{
+    text-decoration: none;
+    color: white;
+}
+.s3>button>a:hover{
+    color: red;
+}
+.s3>button>a:active{
+    color: red;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(160, 207, 226);
+    column-gap: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.s4{
+    padding: 20px;
+    margin-left: 70px;
+    width: 60%
+}
+.s5{
+    padding: 20px;
+    margin-right: 45px;
+}
+.s5>ul>li{
+    padding-top: 20px;
+    list-style: none;
+}
+.s6{
+    padding: 20px;
+}
+.s6>address{
+    padding-top: 20px;
+}
+.s7{
+    padding-top: 20px;
+    margin-right: 65px;
+}
+.in3{
+    padding-top: 20px;
+}
+.in3>input{
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.in3>a>i{
+    padding: 13px;
+    background-color: #40A578;
+    border-radius: 7px;
+    margin-left: 10px;
+    color: black;
+}

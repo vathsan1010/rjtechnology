@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtask3</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .mar{
+    background-color: orange;
+    padding: 10px;
+}
+.icons{
+    background-color: rgb(48, 46, 59);
+    color: white;
+    display: flex;
+    padding: 20px 10px 12px 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.icons>p{
+    margin-right: 100px;
+    background-color:rgb(48, 46, 59);
+    color: white;
+}
+.pic>a>i{
+    padding-top: 20px;
+}
+
+.icons i{
+    margin-right: 20px;
+    color: white;
+} 
+.in:hover{
+    color: red;
+    cursor: pointer;
+}
+.information{
+    background-color: lightblue;
+    display: flex;
+    padding: 30px;
+    color: rgb(5, 150, 5);
+}
+.align{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.align a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left:40px ;
+    color: black;
+}
+.align a:hover{
+    background-color: white;
+    color: red;
+    padding: 20px 10px 20px 10px;
+    margin: 20px;
+}
+.information button{
+    margin-left: 100px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #57bb7f;
+    font-size: 15px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+        .container{
+            text-align: center;
+            color: #FFC100;
+        }
+        .in{
+            padding: 10px;
+            background-color: #FFC100;
+            color: white;
+            margin: 10px;
+            border: none;
+        }
+        .to{
+            padding: 7px;
+            background-color: navy;
+            color: white;
+            margin: 10px;
+            border: 0;
+        }
+        .container2 {
+    margin-left: 181px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgb(171, 170, 170);
+    background-color: white;
+    margin-right: 130px;
+}
+.container2>p{
+    text-align: center;
+    color: #FFD31D;
+}
+.container2>ul>li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container3{
+    width: 100%;
+    background-color: #FFC100;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+.to2{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    margin-top: 20px;
+    width: 100%;
+    margin-right: -22px;
+    right: -13px;
+    padding-left: 37px;
+
+}
+.in2:hover .to2{
+    display: block;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:white;
+    color: black;
+    /* margin-top: 30px; */
+}
+.dropdown-content a{
+    padding: 20px 90px 10px 30px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    margin: 0px;
+    background-color: rgb(74, 71, 71);
+    color: white;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.click{
+    position: relative;
+    margin-left: 30px;
+}
+
+.click-form{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -60px;
+    width: 370px;
+    height: 350px;
+    margin: 15px 18px 10px 15px ;
+    padding: 20px;
+    background-color: white;
+}
+.click:hover .click-form{
+    display: block;
+} 
+.click-form h3{
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.home-icons{
+    color: black;
+    background-color: skyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin: 10px;
+}
+.home-icons i{
+    padding-left: 30px;
+}
+.inputs input,select{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.inputs button{
+    padding: 15px 50px;
+    background-color: skyblue;
+    color: black;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+    </style>
+    <script src="https://kit.fontawesome.com/5c6d09dda0.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <marquee behavior="alternate" direction="left" class="mar">
+        <p>Our best offer Ever!!Summer Special-Get 3 Courses at 22499/- Only<a href="">Read More</a> </p>
+</marquee>
+<div class="icons">
+    <p class="in">Email: rjtechnology@gmail.com</p>
+    <p class="in">Contact: +91 9025741101</p>
+    <div class="pic">
+   <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+   <a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+   <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+   <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+</div>
+<div class="information">
+    <h2><i class="fa-solid fa-graduation-cap"></i>RJ Technology</h2>
+    <nav class="align">
+     <a href="">Home</a>
+     <a href="">About</a>
+     <div class="dropdown">
+     <a href="">Courses</a>
+     <div class="dropdown-content">
+         <a href="sub2.html">Frontend</a>
+         <a href="sub3.html">Backend</a>
+     </div>
+ </div>
+     <a href="">Online Training</a>
+     <a href="">Contact</a>
+    </nav>
+    <div class="click">
+    <button>Enquairy</button>
+    <div class="click-form">
+     <form>
+         <h3>Request for <br> Class Room & Online Training Quotation</h3>
+         <div class="home-icons">
+             <i class="fa-solid fa-house">Home</i>
+             <i class="fa-solid fa-computer">Online</i>
+         </div>
+         <div class="inputs">
+             <input type="text" placeholder="Enter Your Name">
+             <input type="email" placeholder="Enter Your Email">
+             <input type="number" placeholder="Enter Your Mobile no">
+             <select>
+                 <option>HTML</option>
+                 <option>CSS</option>
+                 <option>JAVASCRIPT</option>
+                 <option>REACTJS</option>
+             </select>
+             <button>Submit Query</button>
+         </div>
+     </form>
+    </div>
+ </div>
+ </div>
+    <div class="container">
+        <h1>Back End</h1>
+        <button class="in"><i class="fa-solid fa-address-book"></i>Enroll</button>
+        <button class="to">Java</button>
+        <button class="to">Python</button>
+        <button class="in"><i class="fa-solid fa-calendar-days"></i>View Batch</button>
+    </div>
+    <div class="container2">
+        <p>Who this Course is for?</p>
+        <ul>
+            <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+            <li>Any Software Developer interested in mobile Technologies</li>
+            <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+        </ul>
+    </div>
+    <div class="container2">
+        <p>Why take this Course?</p>
+        <ul>
+            <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+            <li>Any Software Developer interested in mobile Technologies</li>
+            <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+        </ul>
+    </div>
+    <div class="container2">
+        <p>What you will learn?</p>
+        <ul>
+            <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+            <li>Any Software Developer interested in mobile Technologies</li>
+            <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+            <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+            <li>Any Software Developer interested in mobile Technologies</li>
+            <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+            <li>******* YouMannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+            <li>Any Software Developer interested in mobile Technologies</li>
+            <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+        </ul>
+    </div>
+    <div class="container3">
+        <div class="in2">
+            JAVA
+            <div class="to2">
+                <ul>
+                    <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+                    <li>Any Software Developer interested in mobile Technologies</li>
+                    <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+                    <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+                    <li>Any Software Developer interested in mobile Technologies</li>
+                    <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="in2">
+            PYTHON
+            <div class="to2">
+                <ul>
+                    <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+                    <li>Any Software Developer interested in mobile Technologies</li>
+                    <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+                    <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+                    <li>Any Software Developer interested in mobile Technologies</li>
+                    <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="in2">
+            C#(SHARP)
+            <div class="to2">
+                <ul>
+                    <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+                    <li>Any Software Developer interested in mobile Technologies</li>
+                    <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+                    <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+                    <li>Any Software Developer interested in mobile Technologies</li>
+                    <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <div class="container3">
+        <div class="in2">
+            NODEJS
+            <div class="to2">
+                <ul>
+                    <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+                    <li>Any Software Developer interested in mobile Technologies</li>
+                    <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+                    <li>Mannual Testing,Non-Progrmming aware testers interested in learning Automation</li>
+                    <li>Any Software Developer interested in mobile Technologies</li>
+                    <li>Freshers/Undergraduates/Graduates/Software Testers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
